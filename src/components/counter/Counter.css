@@ -1,0 +1,29 @@
+.counter-card {
+    padding: 1rem;
+    background-color: #121212;
+    color: azure;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid navy;
+    font-family: "Roboto", sans-serif;
+    width: min-content;
+
+    .counter-value {
+        color: royalblue;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        margin-bottom: .5rem;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+
+        .btn {
+            flex: 1;
+        }
+    }
+}
